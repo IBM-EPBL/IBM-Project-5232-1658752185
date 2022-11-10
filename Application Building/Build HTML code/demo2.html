@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <body style="background-color:skyblue;">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Signin Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+   
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">\
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css" 
+integrity="sha512-glciccPoOqr5mfDGmlJ3bpbvomZmFK+5dRARpt62nZnlKwaYZSfFpFIgUoD8ujqBw4TmPa/
+F3TX28OctJzoLfg==" crossorigin="anonymous" 
+referrerpolicy="no-referrer" />
+
+    <style >
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      } 
+      .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      } 
+
+      .form-signin input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px; 
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;}
+    </style>
+ 
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+<main class="form-signin">
+  <form method = "post" action="validate.php">
+   <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/344/external-university-buildings-victoruler-linear-colour-victoruler.png" >
+      <path d="M31.62 63.24C49.0832 63.24 63.24 49.0832 63.24 31.62C63.24 14.1568 49.0832 0 31.62 0C14.1568 0 0 14.1568 0 31.62C0 49.0832 14.1568 63.24 31.62 63.24Z" fill="#C75C5C"/>
+      <g opacity="0.2">
+      <path d="M19.7625 33.5963H43.4775C44.5644 33.5963 45.4538 32.7069 45.4538 31.62V19.7625C45.4538 18.6756 44.5644 17.7863 43.4775 17.7863H19.7625C18.6756 17.7863 17.7863 18.6756 17.7863 19.7625V31.62C17.7863 32.7069 18.6756 33.5963 19.7625 33.5963Z" fill="#231F20"/>
+      <path d="M43.4775 13.8337H19.7625C16.5017 13.8337 13.8337 16.5017 13.8337 19.7625V31.62V43.4775C13.8337 46.7383 16.5017 49.4062 19.7625 49.4062H43.4775C46.7383 49.4062 49.4062 46.7383 49.4062 43.4775V31.62V19.7625C49.4062 16.5017 46.7383 13.8337 43.4775 13.8337ZM17.7862 19.7625C17.7862 18.6756 18.6756 17.7862 19.7625 17.7862H43.4775C44.5644 17.7862 45.4537 18.6756 45.4537 19.7625V31.62C45.4537 32.7069 44.5644 33.5962 43.4775 33.5962H19.7625C18.6756 33.5962 17.7862 32.7069 17.7862 31.62V19.7625Z" fill="#231F20"/>
+      <path d="M43.4775 45.4538C44.569 45.4538 45.4538 44.569 45.4538 43.4775C45.4538 42.386 44.569 41.5013 43.4775 41.5013C42.386 41.5013 41.5013 42.386 41.5013 43.4775C41.5013 44.569 42.386 45.4538 43.4775 45.4538Z" fill="#231F20"/>
+      <path d="M41.5013 51.3825H21.7388C20.6518 51.3825 19.7625 52.2718 19.7625 53.3587C19.7625 54.4457 20.6518 55.335 21.7388 55.335H41.5013C42.5882 55.335 43.4775 54.4457 43.4775 53.3587C43.4775 52.2718 42.5882 51.3825 41.5013 51.3825Z" fill="#231F20"/>
+      </g>
+      <path d="M47.43 41.5013C47.43 43.6751 45.6514 45.4538 43.4775 45.4538H19.7625C17.5886 45.4538 15.81 43.6751 15.81 41.5013V17.7862C15.81 15.6124 17.5886 13.8337 19.7625 13.8337H43.4775C45.6514 13.8337 47.43 15.6124 47.43 17.7862V41.5013Z" fill="white" stroke="white" stroke-width="3.9525" stroke-miterlimit="10"/>
+      <path d="M47.43 29.6438C47.43 31.8176 45.6514 33.5963 43.4775 33.5963H19.7625C17.5886 33.5963 15.81 31.8176 15.81 29.6438V17.7862C15.81 15.6124 17.5886 13.8337 19.7625 13.8337H43.4775C45.6514 13.8337 47.43 15.6124 47.43 17.7862V29.6438Z" fill="#4F5D73" stroke="white" stroke-width="3.9525" stroke-miterlimit="10"/>
+      <path d="M19.7625 45.4538H43.4775C45.6514 45.4538 47.43 43.6751 47.43 41.5013V37.5488H15.81V41.5013C15.81 43.6751 17.5886 45.4538 19.7625 45.4538Z" fill="#E0E0D1" stroke="#E0E0D1" stroke-width="3.9525" stroke-miterlimit="10"/>
+      <path d="M23.715 41.5013C23.715 43.6751 21.9364 45.4538 19.7625 45.4538C17.5886 45.4538 15.81 43.6751 15.81 41.5013C15.81 39.3274 17.5886 37.5488 19.7625 37.5488C21.9364 37.5488 23.715 39.3274 23.715 41.5013Z" fill="#E0995E" stroke="#E0E0D1" stroke-width="3.9525" stroke-miterlimit="10"/>
+      <path d="M47.43 41.5013C47.43 43.6751 45.6514 45.4538 43.4775 45.4538C41.3036 45.4538 39.525 43.6751 39.525 41.5013C39.525 39.3274 41.3036 37.5488 43.4775 37.5488C45.6514 37.5488 47.43 39.3274 47.43 41.5013Z" fill="#E0995E" stroke="#E0E0D1" stroke-width="3.9525" stroke-miterlimit="10"/>
+      <path d="M43.4775 51.3825C43.4775 52.4694 42.5882 53.3588 41.5013 53.3588H21.7388C20.6518 53.3588 19.7625 52.4694 19.7625 51.3825C19.7625 50.2956 20.6518 49.4062 21.7388 49.4062H41.5013C42.5882 49.4062 43.4775 50.2956 43.4775 51.3825Z" fill="#F5CF87"/>
+      </svg>
+      
+     <h1 class="h3 mb-3 fw-normal"><strong>University Admit Predictor</strong></h1>
+    <h2 class="h3 mb-3 fw-normal">Discover Your Chances of Getting into your Dream University</h2>
+    
+    
+    <div class="form-floating">
+        <input type="number" class="form-control" min="0", max="340" placeholder="ENTER THE GRE SCORE" value="{{ form_values['GRE Score'] }}" required >
+        <label>GRE SCORE </label>
+      </div> 
+      <div class="form-floating">
+        <input type="number" class="form-control" min="0",max="10" placeholder="ENTER CGPA" value="{{ form_values['CGPA'] }}" required >
+        <label>CGPA</label>
+      </div>
+    <div class="form-floating">
+      <input type="number" class="form-control"  placeholder="Enter the sop" min="0" , max="9" value="{{ form_values['SOP'] }}" required>
+      <label>SOP</label>
+    </div>
+    <div class="form-floating">
+      <input type="number" class="form-control"  placeholder="ENTER LOR" min="0",max="9" value="{{ form_values['LOR '] }}" required>
+      <label >Letter of Recommendation</label>
+    </div>
+    <div class="form-floating">
+      <input type="number" class="form-control" placeholder="ENTER RESEARCH", min="0" , max="2"  value="{{ form_values['Research']  }}" required>
+      <label>Research</label>
+    </div> 
+    <div class="form-floating">
+      <input type="number" class="form-control"  placeholder="ENTER UNIVERSITY RATING" min="0" , max="2" value="{{ form_values['University Rating'] }}" required>
+      <label >University Rating </label>
+      </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary hvr-grow" type="submit">Predict</button>
+    
+  </form>
+</main>
+
+
+    
+  </body>
+</html>

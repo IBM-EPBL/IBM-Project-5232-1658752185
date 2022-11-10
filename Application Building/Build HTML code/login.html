@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <body style="background-color:skyblue;">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>User Login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <div align="right" style="padding: 10px">
+    <a href="login.html" class="btn btn-success">User Login</a>
+    <a href="adminlogin.html" class="btn btn-default">Admin Login</a>
+    <a href="register.html" class="btn btn-default">Register</a>
+  </div>
+
+      <body align = "center">
+        <form action="login.php" method="POST">
+
+        <div class="container container-login centre" >
+        <div  class="well center" style="width:350px;" >
+          <h3>User Login<h3>
+            <br><br>
+            <div class="input-group">
+              <span class="input-group-addon " id="username-addon">@</span>
+              <input type="text" class="form-control" name="username" placeholder="Username" aria-describedby="username-addon">
+            </div>
+            <br><br>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              <input type="password" class="form-control" name="password" placeholder="Password" aria-describedby="password-addon">
+            </div>
+            <br><br>
+            <button type="submit" class="btn btn-success">LOGIN</button>
+          </div>
+        </div>
+
+      </form>
+
+      </body>
+
+
+
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+    </body>
+  </html>

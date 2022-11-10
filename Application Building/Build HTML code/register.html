@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Registration</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+    <div align="right" style="padding: 10px">
+      <a href="login.html" class="btn btn-default">User Login</a>
+      <a href="adminlogin.html" class="btn btn-default">Admin Login</a>
+      <a href="register.html" class="btn btn-success">Register</a>
+    </div>
+
+<body align="center">
+  <form action="register.php" method="POST">
+  <div class="container container-login">
+  <div  class="well" style="width:400px; ">
+    <h3>Registration<h3>
+      <br>
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input type="text" class="form-control" name="fname" placeholder="First Name" aria-describedby="name-addon">
+      </div>
+      <br>
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input type="text" class="form-control" name="lname" placeholder="Last Name" aria-describedby="name-addon">
+      </div>
+      <br>
+      <div class="input-group">
+        <span class="input-group-addon " id="username-addon">@</span>
+        <input type="text" class="form-control" name="username" placeholder="Username" aria-describedby="username-addon">
+      </div>
+      <br>
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+        <input type="password" class="form-control" name="password" placeholder="Password" aria-describedby="password-addon">
+      </div>
+      <br>
+      <div class="form-group">
+
+            <select class="form-control" aria-describedby="name-addon" name="sex">
+              <option selected disabled>Sex</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="others">Others</option>
+           </select>
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon " id="username-addon">%</span>
+          <input type="float" class="form-control" name="hsc" placeholder="HSC Percentage">
+        </div>
+        <BR>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-list-alt"></i></span>
+      <button type="submit" class="btn btn-success">Sign up</button>          <input type="int" class="form-control" name="jee" placeholder="JEE Score">
+        </div>
+
+      <br><br>
+      <button type="reset" class="btn btn-danger">Reset</button>
+      <button type="submit" class="btn btn-success">Sign up</button>
+
+    </div>
+  </div>
+
+</form>
+
+</body>
+
+
+
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+    </body>
+  </html>
