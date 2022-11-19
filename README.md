@@ -1,4 +1,4 @@
-# IBM-Project-1107-1658371789
+# IBM-Project-5232-1658752185
 
 **University Admit Eligibility Predictor**
 
@@ -8,10 +8,10 @@
 
 **TEAM MEMBERS:**
 
-    Mohana.M
-    Mohanapriya.T
-    Ramya.S
-    Swathi priya .M
+    vijayan
+    sathiyaseelan
+    sheshanth kumar
+    vishal kumar
     
 
 **Skills Required:**
