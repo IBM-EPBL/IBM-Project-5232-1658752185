@@ -1,13 +1,13 @@
 ![image](https://user-images.githubusercontent.com/115606971/196098281-8d1455a3-a637-4573-ad9a-2103473e7fd3.png)
 
 # University Admit Eligibility Predictor
-# IBM-Project-23486-1659884019
+# IBM-Project-5232-1658752185
 
 # Team Members: 
-- Jayapradha B 
-- Maimoon Shirin M 
-- Kiruthika P
-- Banu Swetha R
+- Vijayan 
+- Sathiyaseelan
+- Sheshanth Kumar
+- Vishal Kumar
 
 # Abstract:
 Students are often worried about their chances of admission to University.
